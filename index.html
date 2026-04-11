@@ -5,11 +5,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PraxisPro Épistémé - Ingénierie Clinique Avancée</title>
 
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin>
+        /* ── Modal Conditions d'utilisation ─────────────────────────────────── */
+        function openConditionsModal(event) {
+            if (event) event.preventDefault();
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.add("show");
+                document.body.style.overflow = "hidden";
+            }
+        }
+
+        function closeConditionsModal() {
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.remove("show");
+                document.body.style.overflow = "auto";
+            }
+        }
+
+        window.addEventListener("click", function(event) {
+            const modal = document.getElementById("conditionsModal");
+            if (event.target === modal) {
+                closeConditionsModal();
+            }
+        });
+
+        window.addEventListener("keydown", function(event) {
+            if (event.key === "Escape") {
+                closeConditionsModal();
+            }
+        });
+
+    </script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin>
+        /* ── Modal Conditions d'utilisation ─────────────────────────────────── */
+        function openConditionsModal(event) {
+            if (event) event.preventDefault();
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.add("show");
+                document.body.style.overflow = "hidden";
+            }
+        }
+
+        function closeConditionsModal() {
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.remove("show");
+                document.body.style.overflow = "auto";
+            }
+        }
+
+        window.addEventListener("click", function(event) {
+            const modal = document.getElementById("conditionsModal");
+            if (event.target === modal) {
+                closeConditionsModal();
+            }
+        });
+
+        window.addEventListener("keydown", function(event) {
+            if (event.key === "Escape") {
+                closeConditionsModal();
+            }
+        });
+
+    </script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js">
+        /* ── Modal Conditions d'utilisation ─────────────────────────────────── */
+        function openConditionsModal(event) {
+            if (event) event.preventDefault();
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.add("show");
+                document.body.style.overflow = "hidden";
+            }
+        }
+
+        function closeConditionsModal() {
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.remove("show");
+                document.body.style.overflow = "auto";
+            }
+        }
+
+        window.addEventListener("click", function(event) {
+            const modal = document.getElementById("conditionsModal");
+            if (event.target === modal) {
+                closeConditionsModal();
+            }
+        });
+
+        window.addEventListener("keydown", function(event) {
+            if (event.key === "Escape") {
+                closeConditionsModal();
+            }
+        });
+
+    </script>
+    <script src="https://cdn.tailwindcss.com">
+        /* ── Modal Conditions d'utilisation ─────────────────────────────────── */
+        function openConditionsModal(event) {
+            if (event) event.preventDefault();
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.add("show");
+                document.body.style.overflow = "hidden";
+            }
+        }
+
+        function closeConditionsModal() {
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.remove("show");
+                document.body.style.overflow = "auto";
+            }
+        }
+
+        window.addEventListener("click", function(event) {
+            const modal = document.getElementById("conditionsModal");
+            if (event.target === modal) {
+                closeConditionsModal();
+            }
+        });
+
+        window.addEventListener("keydown", function(event) {
+            if (event.key === "Escape") {
+                closeConditionsModal();
+            }
+        });
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js">
+        /* ── Modal Conditions d'utilisation ─────────────────────────────────── */
+        function openConditionsModal(event) {
+            if (event) event.preventDefault();
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.add("show");
+                document.body.style.overflow = "hidden";
+            }
+        }
+
+        function closeConditionsModal() {
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.remove("show");
+                document.body.style.overflow = "auto";
+            }
+        }
+
+        window.addEventListener("click", function(event) {
+            const modal = document.getElementById("conditionsModal");
+            if (event.target === modal) {
+                closeConditionsModal();
+            }
+        });
+
+        window.addEventListener("keydown", function(event) {
+            if (event.key === "Escape") {
+                closeConditionsModal();
+            }
+        });
+
+    </script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
@@ -666,8 +826,100 @@
 
         const root = ReactDOM.createRoot(document.getElementById('root'));
         root.render(<App />);
-   </script>
+   
+        /* ── Modal Conditions d'utilisation ─────────────────────────────────── */
+        function openConditionsModal(event) {
+            if (event) event.preventDefault();
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.add("show");
+                document.body.style.overflow = "hidden";
+            }
+        }
+
+        function closeConditionsModal() {
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.remove("show");
+                document.body.style.overflow = "auto";
+            }
+        }
+
+        window.addEventListener("click", function(event) {
+            const modal = document.getElementById("conditionsModal");
+            if (event.target === modal) {
+                closeConditionsModal();
+            }
+        });
+
+        window.addEventListener("keydown", function(event) {
+            if (event.key === "Escape") {
+                closeConditionsModal();
+            }
+        });
+
+    </script>
 <div class="toast-container" id="toast-container"></div>
-<script src="https://dmaret.github.io/footer.js"></script>
+<script src="https://dmaret.github.io/footer.js">
+        /* ── Modal Conditions d'utilisation ─────────────────────────────────── */
+        function openConditionsModal(event) {
+            if (event) event.preventDefault();
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.add("show");
+                document.body.style.overflow = "hidden";
+            }
+        }
+
+        function closeConditionsModal() {
+            const modal = document.getElementById("conditionsModal");
+            if (modal) {
+                modal.classList.remove("show");
+                document.body.style.overflow = "auto";
+            }
+        }
+
+        window.addEventListener("click", function(event) {
+            const modal = document.getElementById("conditionsModal");
+            if (event.target === modal) {
+                closeConditionsModal();
+            }
+        });
+
+        window.addEventListener("keydown", function(event) {
+            if (event.key === "Escape") {
+                closeConditionsModal();
+            }
+        });
+
+    </script>
+<div class="footer-legal">
+  <strong>© 2025–2026 MARET Davie — Tous droits réservés.</strong> Toute reproduction ou utilisation de ce logiciel sans accord préalable écrit est interdite. <a onclick="openConditionsModal(event)">Voir les conditions d'utilisation</a>
+</div>
+
+<!-- Modal Conditions d'utilisation -->
+<div class="modal-conditions" id="conditionsModal">
+  <div class="modal-conditions-content">
+    <div class="modal-conditions-header">
+      Conditions d'utilisation
+    </div>
+    <div class="modal-conditions-body">
+      <p><strong style="font-size: 1.1em;">© 2025–2026 MARET Davie — Tous droits réservés</strong></p>
+
+      <p><strong>Conditions d'utilisation du code :</strong></p>
+      <ul>
+        <li>Le code source de ces projets est fourni à titre informatif et éducatif</li>
+        <li>Toute reproduction, modification ou redistribution du code sans autorisation écrite est strictement interdite</li>
+        <li>Les designs, interfaces visuelles et contenus créatifs sont protégés par le droit d'auteur</li>
+        <li>Pour toute demande de réutilisation ou de collaboration, contactez l'auteur</li>
+      </ul>
+
+      <p><strong>Attribution :</strong> Si vous utilisez ou vous inspirez de ces projets, veuillez citer la source : dmaret © 2025–2026</p>
+    </div>
+    <div class="modal-conditions-close">
+      <button onclick="closeConditionsModal()">Fermer</button>
+    </div>
+  </div>
+</div>
 </body>
 </html>
